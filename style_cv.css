@@ -1,0 +1,140 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("mendenhall08.jpg");
+    background-attachment: fixed;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media only screen and (max-device-width: 1366px) {
+    body {
+      background-attachment: scroll;
+    }
+  }
+
+
+
+header {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(86, 88, 94, 0.801);
+    color: white;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+header li {
+    padding: 5%;
+}
+header aside {
+    
+}
+header aside img {
+    width: 150px;
+    height: 200px;
+    position: relative;
+    top: 40%;
+}
+
+
+
+section {
+    width: 80%;
+}
+
+
+#sformation {
+    display: grid;
+    grid-template-columns: auto, 1fr;
+    grid-template-rows: auto, 1fr;
+    background-color: rgba(32, 34, 41, 0.801);
+    color: white;
+    margin-left: 10%;
+}
+#sformation h2 {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+}
+#sformation ul {
+    grid-column: 1;
+    grid-row: 2;
+}
+#sformation ul li {
+    padding: 3%;
+}
+#aformation {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+
+#sexperience {
+    display: grid;
+    grid-template-columns: auto, 1fr;
+    grid-template-rows: auto, 1fr;
+    background-color: rgba(32, 34, 41, 0.801);
+    color: white;
+    margin-left: 10%;
+    border-top: 1px solid black;
+}
+#sexperience h2 {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+}
+#sexperience ul {
+    grid-column: 1;
+    grid-row: 2;
+}
+#aexperience {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+
+#slangues {
+    display: grid;
+    grid-template-columns: auto, 1fr;
+    grid-template-rows: auto, 1fr;
+    background-color: rgba(32, 34, 41, 0.801);
+    color: white;
+    margin-left: 10%;
+    border-top: 1px solid black;
+}
+#slangues h2 {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+}
+#slangues ul {
+    grid-column: 1;
+    grid-row: 2;
+}
+#alangues {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+
+#sautres {
+    display: grid;
+    grid-template-columns: auto, 1fr;
+    grid-template-rows: auto, 1fr;
+    background-color: rgba(32, 34, 41, 0.801);
+    color: white;
+    margin-left: 10%;
+    border-top: 1px solid black;
+    margin-bottom: 10%;
+}
+#sautres h2 {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+}
+#sautres ul {
+    grid-column: 1;
+    grid-row: 2;
+}
+#aautres {
+    grid-column: 2;
+    grid-row: 2;
+}
+
