@@ -2,7 +2,6 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image: url("mendenhall08.jpg");
     background-attachment: fixed;
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23,6 +22,7 @@ header {
     color: white;
     margin-left: 10%;
     margin-top: 10%;
+    
 }
 header li {
     padding: 5%;
