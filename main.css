@@ -18,14 +18,15 @@ header {
     width: 80%;
     display: flex;
     flex-direction: row;
-    background-color: rgba(86, 88, 94, 0.801);
+    background-color: rgba(32, 34, 41, 0.801);
     color: white;
     margin-left: 10%;
     margin-top: 10%;
+    border-bottom: 1px solid black;
     
 }
 header li {
-    padding: 5%;
+    padding: 4%;
 }
 header aside {
     
@@ -44,7 +45,7 @@ section {
 }
 
 
-#sformation {
+#section-formation {
     display: grid;
     grid-template-columns: auto, 1fr;
     grid-template-rows: auto, 1fr;
@@ -52,24 +53,28 @@ section {
     color: white;
     margin-left: 10%;
 }
-#sformation h2 {
+#section-formation h2 {
     grid-column: 1 / span 2;
     grid-row: 1;
 }
-#sformation ul {
+#section-formation ul {
     grid-column: 1;
     grid-row: 2;
 }
-#sformation ul li {
+#section-formation ul li {
     padding: 3%;
 }
-#aformation {
+#aside-formation {
+    padding-top: 1%;
     grid-column: 2;
     grid-row: 2;
 }
+#aside-formation p {
+    padding-bottom: 0.5%;
+}
 
 
-#sexperience {
+#section-experience {
     display: grid;
     grid-template-columns: auto, 1fr;
     grid-template-rows: auto, 1fr;
@@ -78,21 +83,28 @@ section {
     margin-left: 10%;
     border-top: 1px solid black;
 }
-#sexperience h2 {
+#section-experience h2 {
     grid-column: 1 / span 2;
     grid-row: 1;
 }
-#sexperience ul {
+#section-experience ul {
     grid-column: 1;
     grid-row: 2;
 }
-#aexperience {
+#section-experience ul li {
+    padding: 3%;
+}
+#aside-experience {
+    padding-top: 1%;
     grid-column: 2;
     grid-row: 2;
 }
+#aside-experience p {
+    padding-bottom: 1%;
+}
 
 
-#slangues {
+#section-langues {
     display: grid;
     grid-template-columns: auto, 1fr;
     grid-template-rows: auto, 1fr;
@@ -101,21 +113,24 @@ section {
     margin-left: 10%;
     border-top: 1px solid black;
 }
-#slangues h2 {
+#section-langues h2 {
     grid-column: 1 / span 2;
     grid-row: 1;
 }
-#slangues ul {
+#section-langues ul {
     grid-column: 1;
     grid-row: 2;
 }
-#alangues {
+#section-langues ul li {
+    padding: 3%;
+}
+#aside-langues {
     grid-column: 2;
     grid-row: 2;
 }
 
 
-#sautres {
+#section-autres {
     display: grid;
     grid-template-columns: auto, 1fr;
     grid-template-rows: auto, 1fr;
@@ -125,15 +140,15 @@ section {
     border-top: 1px solid black;
     margin-bottom: 10%;
 }
-#sautres h2 {
+#section-autres h2 {
     grid-column: 1 / span 2;
     grid-row: 1;
 }
-#sautres ul {
+#section-autres ul {
     grid-column: 1;
     grid-row: 2;
 }
-#aautres {
+#aside-autres {
     grid-column: 2;
     grid-row: 2;
 }
