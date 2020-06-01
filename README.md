@@ -12,7 +12,7 @@ Les difficultées que j'ai rencontrées sont : tout d'abord j'ai eu des problèm
 
 ## Versioning
 
-Je n'ai qu'une version du travail car je ne l'ai placé que le dernier jour.
+Version 2.0 j'ai joué sur les padding pour aligner approximativement les colonnes des listes et des paragraphes.
 
 ## Auteur
 
